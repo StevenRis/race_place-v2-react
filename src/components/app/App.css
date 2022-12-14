@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  z-index: 99;
+}
+
+.wrapper-container {
+  height: 100vh;
+}
+
+.wrapper-container, .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  display: none;
+  flex-direction: column;
+}
+
+.main, .content {
+  flex: 1 1 auto;
+}
